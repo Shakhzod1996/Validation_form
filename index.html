@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Flexbox ----------------------------------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" >
+
+    <!-- Font awesome ------------------------------------>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+
+    <!-- Local Css --------------------------------------->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Validation Form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Create Account</h2>
+        </div>
+
+        <form id="form" class="form">
+            <div class="form-control">
+                <label for="username">Username</label>
+                <input type="text" placeholder="shaxzod" id="username">
+                <i class="fa fa-check-circle"></i>
+                <i class="fa fa-exclamation-circle"></i>
+                <small class="small">Error message</small>
+            </div>
+
+            <div class="form-control">
+                <label for="email">Your email</label>
+                <input type="email" placeholder="shax@gmail.com" id="email">
+                <i class="fa fa-check-circle"></i>
+                <i class="fa fa-exclamation-circle"></i>
+                <small class="small">Error message</small>
+            </div>
+
+            <div class="form-control">
+                <label for="password">Password</label>
+                <input type="password" placeholder="Password" id="password">
+                <i class="fa fa-check-circle"></i>
+                <i class="fa fa-exclamation-circle"></i>
+                <small class="small">Error message</small>
+            </div>
+
+            <div class="form-control">
+                <label for="password2">Password again</label>
+                <input type="password" placeholder="Password again" id="password2">
+                <i class="fa fa-check-circle"></i>
+                <i class="fa fa-exclamation-circle"></i>
+                <small class="small">Error message</small>
+            </div>
+
+            <button>Submit</button>
+        </form>
+    </div>
+
+    <!-- Social panel ------------------------------>
+    <div class="social-ponel-container">
+        <div class="social-panel">
+            <p>Follow me <i class="fa fa-heart"></i></p>
+            <button class="close-btn"><i class="fa fa-times"></i></button>
+            <h4>GET IN TOUCH ON</h4>
+
+            <ul>
+                <li><a href="#" target="_blank"><i class="fab fa-discord"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+
+            </ul>
+        </div>
+    </div>
+
+    <button class="floating-btn">
+        Get in touch
+    </button>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
